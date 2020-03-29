@@ -88,17 +88,30 @@ h6 {
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: table;
   width: 100%;
+  display:table;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("http://www.lucas-wang.com/wp-content/themes/website2.0/img/book.jpg");
-  /*background-image source: <a href="https://iconscout.com/photos/blank" target="_blank">Blank Book And Ballpen On Wooden Table Photo</a> by <a href="https://iconscout.com/contributors/jessica-lewis-21153">Jessica Lewis</a> on <a href="https://iconscout.com">Iconscout</a>*/
-  background-position: center center;
+  color: #f1f1f1;
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("http://www.lucas-wang.com/wp-content/themes/website2.0/img/book.jpg");*/
+ /*background-image source: <a href="https://iconscout.com/photos/blank" target="_blank">Blank Book And Ballpen On Wooden Table Photo</a> by <a href="https://iconscout.com/contributors/jessica-lewis-21153">Jessica Lewis</a> on <a href="https://iconscout.com">Iconscout</a>*/
+  /*background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
+
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 
 .masthead h1 {
   font-size: 4rem;
@@ -110,12 +123,12 @@ h6 {
   .masthead {
     height: 100vh;
   }
-  .masthead h1 {
+  .header h1 {
     font-size: 5.5rem;
   }
 }
 
-/* Side Menu */
+/*Side Menu*/ 
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -360,7 +373,6 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
-
 
 
 
