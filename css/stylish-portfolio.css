@@ -119,17 +119,29 @@ h6 {
   padding: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-device-width: 992px) {
   .masthead {
     height: 100vh;
   }
-  .header h1 {
+  .masthead h1 {
     font-size: 5.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  #particles-js {
+    height: 80vh ;
   }
 }
 
 .row h2 {
   font-size: 3rem;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .masthead {
+    padding-top: 70px;
+  }
 }
 
 /*Side Menu*/ 
@@ -242,7 +254,7 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(30,30,30,0.1);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -260,7 +272,8 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -272,6 +285,7 @@ h6 {
 .portfolio-item img {
   width: 555px;
   height: 400px;
+  border-radius: 10px;
 }
 
 @media (min-width: 992px) {
@@ -303,6 +317,20 @@ h6 {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  .portfolio-item .caption .caption-content{
+    visibility: visible;
+  }
+  .portfolio-item .caption{
+    background-color: rgba(30,30,30,0.5)
+  }
+
+  .portfolio-item .caption .caption-content{
+    margin-bottom: 0;
+    margin-top: 3rem;
   }
 }
 

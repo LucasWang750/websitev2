@@ -18,7 +18,13 @@
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#experience">Experience</a>
+      </li>
+      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Projects</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#academics">Academics</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact</a>
@@ -110,7 +116,7 @@
       <div class="row no-gutters">
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://lucaswang750.itch.io/cardioid" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Cardioid</h2>
                 <p class="mb-0">My team and I developed this game at CodeDay LA. It is a full functioning game that you can download from itch.io. The premise is that you are the sole boy of a math class study group and both girls in the group are very cute. Over the course of 3 days, you get to make choices that will ultimately determine which girl you end up with. This game was made on the backbones of Ren'Py</p>
@@ -121,7 +127,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Starship Game</h2>
                 <p class="mb-0">This is the first game I have ever developed on a computer. It uses the Code.org development environment. Due to limited coding knowledge and tools, the starships used are online images set as sprites. We didn't know how to run multiple threads at once so the only 1 actual bullet is being shot out from each starship. This is written in javascript for the AP CSP create design challenge.</p>
@@ -132,7 +138,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://github.com/Milotrince/you-are-tank" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>You Are Tank</h2>
                 <p class="mb-0">This is a game that my team and I developed at a hackathon hosted by CodeDay LA. This game is developed using Unity in C++. The objective of the game is to survive and collect resources in a barren wasteland and upgrade your tank as you go along by adding parts to it.</p>
@@ -143,7 +149,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://github.com/LucasWang750/VisualNovel" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Visual Novel Game Engine</h2>
                 <p class="mb-0">This is a game engine that I wrote using Java JFrame designed for building Visual Novels. I made this during CodeDay LA 2020 while inspired by the main game that our group made, Cardioid the Visual Novel with the Ren'Py engine. I took the game one step further and built a game engine for it so that we do not have to rely on Ren'Py's easy to use syntax.</p>
@@ -154,7 +160,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://github.com/LucasWang750/algorithms/blob/master/TicTacToe.java" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Tic Tac Toe</h2>
                 <p class="mb-0">This is the classic Tic Tac Toe game reimagined in the console using Java. You play against an AI that just randomly mark their move. The game is straight forward. However, making this game was a lot harder than I thought it would be. Making the logic behind the moves and making sure that moves did not overlap took longer than expected. Overall, this game was a good start to programming.</p>
@@ -165,7 +171,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://github.com/LucasWang750/algorithms/blob/master/Pong1.py" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Pong</h2>
                 <p class="mb-0">This is actually an airhockey game that you would find in an arcade. Two players battle it out in this python-based airhockey* game. Player 1 uses wasd and Player 2 uses arrow keys. The hardest part about making this game was trying to make a parent window that allows you to choose levels. However, I do not understand how to combine Tkinter and Turtle modules for python just yet.</p>
@@ -176,7 +182,7 @@
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://github.com/LucasWang750/SubHunter" target="_blank">
-            <span class="caption">
+            <span class="caption" data-aos="">
               <span class="caption-content">
                 <h2>Sub Hunter</h2>
                 <p class="mb-0">This game is developed in Android Studios using Java. My first ever Android game. The objective is to find the hidden "submarine" (it really is just a point in the graph) by hitting different blocks. The game will calculate the distance between your last shot and the hidden submarine. </p>
@@ -277,21 +283,21 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <input name="name" class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>

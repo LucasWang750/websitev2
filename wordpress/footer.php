@@ -56,6 +56,17 @@
   <script src="http://www.lucas-wang.com/wp-content/themes/website2.0/js/particles.min.js"></script>
   <script src="http://www.lucas-wang.com/wp-content/themes/website2.0/js/app.js"></script>
 
+  <!-- animation -->
+  <script type="text/javascript" src="http://www.lucas-wang.com/wp-content/themes/website2.0/js/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    var dur = isMobile ? 1200 : 0;
+    AOS.init({
+      duration: dur,
+      offset: 400,
+    });
+  </script>
+
   </a>
 </body>
 </html>
