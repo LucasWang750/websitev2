@@ -27,6 +27,7 @@
   </nav>
 
   <!-- Header -->
+  <div id="particles-js"></div> 
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
       <h1 class="mb-1">Lucas Wang</h1>
@@ -43,17 +44,16 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2 >About Me</h2>
-          <p class="lead mb-5">Hello! I am Lucas Wang, a high school junior originally from Nanjing, China, currently residing in Diamond Bar, California. I am looking to major in Computer Science, Electrical Engineer, Applied Mathematics, or Applied Physics in College. In the future I hope to solve big problems such as full immersion virtual reality.
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          <h2 class="mb-2">About Me</h2>
+          <p class="lead mb-5">Hello! I am Lucas Wang, a high school junior at <a href="https://dbhs.org">Diamond Bar High School</a> I am looking to major in Computer Science, Electrical Engineer, Applied Mathematics, or Applied Physics in College. In the future I hope to solve big problems such as full immersion virtual reality.</p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#experience">Technical Experiences</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="experience">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0"></h3>
@@ -62,21 +62,30 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
+            <i class="icon-graduation"></i>
           </span>
           <h4>
             <strong>Code Coach</strong>
           </h4>
-          <p class="text-faded mb-0">Strong interpersonal and teamwork communication skills</p>
+          <p class="text-faded mb-0">Teach kids 9-14 how to program in Scratch, HTML/CSS, Python</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
+            <i class="icon-screen-smartphone"></i>
           </span>
           <h4>
             <strong>Tech Help</strong>
           </h4>
-          <p class="text-faded mb-0">Python Javascript Java HTML CSS</p>
+          <p class="text-faded mb-0">Help local seniors solve difficulties with their electronic devices</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-screen-desktop"></i>
+          </span>
+          <h4>
+            <strong>Hackathon</strong>
+          </h4>
+          <p class="text-faded mb-0">CodeDay, TitanHacks, WinHack</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -85,16 +94,7 @@
           <h4>
             <strong>City Volunteer</strong>
           </h4>
-          <p class="text-faded mb-0">3-D Modeling Design Problem Solving</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Hackathon</strong>
-          </h4>
-          <p class="text-faded mb-0">CodeDay TitanHacks WinHack</p>
+          <p class="text-faded mb-0">Organize and volunteer in city-wide events</p>
         </div>
       </div>
     </div>
@@ -198,7 +198,7 @@
     </div>
   </section> -->
   <!-- skills -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="academics">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0"></h3>
@@ -225,7 +225,7 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
+            <i class="icon-pie-chart"></i>
           </span>
           <h4>
             <strong>Engineering</strong>
@@ -234,7 +234,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+            <i class="icon-briefcase"></i>
           </span>
           <h4>
             <strong>Languages</strong>
@@ -273,34 +273,34 @@
       <!-- Contact Section Form -->
       <div class="row">
         <div class="col-lg-8 mx-auto">
-        <form action="https://formspree.io/xzbvwezn" method="POST" />
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Name</label>
-              <input name="name" class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-              <p class="help-block text-danger"></p>
+          <form action="https://formspree.io/xzbvwezn" method="POST" />
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Email Address</label>
-              <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-              <p class="help-block text-danger"></p>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Email Address</label>
+                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-              <label>Message</label>
-              <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-              <p class="help-block text-danger"></p>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <br>
-          <div id="success"></div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-          </div>
-      </form>
+            <br>
+            <div id="success"></div>
+            <div class="form-group text-center">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </form>
         </div>
       </div>
 
