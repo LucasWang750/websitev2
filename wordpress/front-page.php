@@ -115,6 +115,17 @@
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/lucaswang750/coronalytics" target="_blank">
+            <span class="caption" data-aos="">
+              <span class="caption-content">
+                <h2>Coronalytics</h2>
+                <p class="mb-0">Using python libraries tweepy and dash, and Twitter API, I made a real-time graph that shows the amount of tweeets at each hour of the day. There are 2 bars: light blue for tweets from today and dark blue for average tweets everyday. This graph helps understand the trend of coronavirus on social media such as twitter.</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="http://lucas-wang.com/wp-content/themes/website2.0/img/coronalytics.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
           <a class="portfolio-item" href="https://lucaswang750.itch.io/cardioid" target="_blank">
             <span class="caption" data-aos="">
               <span class="caption-content">
